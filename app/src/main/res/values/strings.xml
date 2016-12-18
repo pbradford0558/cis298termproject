@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Currency Exchange</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="enter_amount">ENTER AMOUNT TO CONVERT</string>
+    <string name="convert_from">CONVERT FROM</string>
+    <string name="convert_to">CONVERT TO</string>
+
+    <string name="usd_name">United States Dollar</string>
+    <string name="gbp_name">British Pound</string>
+    <string name="eur_name">Euro</string>
+    <string name="inr_name">Indian Rupee</string>
+    <string name="aud_name">Australian Dollar</string>
+    <string name="cad_name">Canadian Dollar</string>
+    <string name="zar_name">South African Rand</string>
+    <string name="nzd_name">New Zealand Dollar</string>
+    <string name="jpy_name">Japanese Yen</string>
+    <string name="chf_name">Swiss Franc</string>
+
+    <string name="convert_button">CONVERT</string>
+
+    <string name="amount_toast">An amount must be entered.</string>
+    <string name="from_toast">One of the \"From\" choices must be selected.</string>
+    <string name="to_toast">One of the \"To\" choices must be selected.</string>
+    <string name="same_toast">\"From\" and \"To\" selections are the same. Try again.</string>
+
+    <string name="filler"> </string>
+    <string name="equals_text">=</string>
+    <string name="exchange_rate">Exchange Rate</string>
+    <string name="as_of">as of</string>
+
+</resources>

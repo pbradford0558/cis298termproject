@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:text="@string/enter_amount" />
+
+    <EditText
+        android:id="@+id/currency_edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
+        android:textSize="16sp"
+        android:width="130dp"
+        android:maxLength="12"
+        android:inputType="numberDecimal|numberSigned" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                style="?android:attr/listSeparatorTextViewStyle"
+                android:layout_marginTop="10dp"
+                android:text="@string/convert_from" />
+
+            <RadioGroup
+                android:id="@+id/from_radio_group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13sp" >
+
+                <RadioButton
+                    android:id="@+id/from_usd_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/usd_name" />
+
+                <RadioButton
+                    android:id="@+id/from_gbp_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/gbp_name" />
+
+                <RadioButton
+                    android:id="@+id/from_eur_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/eur_name" />
+
+                <RadioButton
+                    android:id="@+id/from_inr_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/inr_name" />
+
+                <RadioButton
+                    android:id="@+id/from_aud_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/aud_name" />
+
+                <RadioButton
+                    android:id="@+id/from_cad_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cad_name" />
+
+                <RadioButton
+                    android:id="@+id/from_zar_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/zar_name" />
+
+                <RadioButton
+                    android:id="@+id/from_nzd_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nzd_name" />
+
+                <RadioButton
+                    android:id="@+id/from_jpy_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/jpy_name" />
+
+                <RadioButton
+                    android:id="@+id/from_chf_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/chf_name" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                style="?android:attr/listSeparatorTextViewStyle"
+                android:layout_marginTop="10dp"
+                android:text="@string/convert_to" />
+
+            <RadioGroup
+                android:id="@+id/to_radio_group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13sp" >
+
+                <RadioButton
+                    android:id="@+id/to_usd_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/usd_name" />
+
+                <RadioButton
+                    android:id="@+id/to_gbp_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/gbp_name" />
+
+                <RadioButton
+                    android:id="@+id/to_eur_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/eur_name" />
+
+                <RadioButton
+                    android:id="@+id/to_inr_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/inr_name" />
+
+                <RadioButton
+                    android:id="@+id/to_aud_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/aud_name" />
+
+                <RadioButton
+                    android:id="@+id/to_cad_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cad_name" />
+
+                <RadioButton
+                    android:id="@+id/to_zar_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/zar_name" />
+
+                <RadioButton
+                    android:id="@+id/to_nzd_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nzd_name" />
+
+                <RadioButton
+                    android:id="@+id/to_jpy_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/jpy_name" />
+
+                <RadioButton
+                    android:id="@+id/to_chf_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/chf_name" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
